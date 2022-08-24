@@ -39,3 +39,21 @@
     --background-lamp-image: url("../images/backgrounds/lamps-inverted.png");
     --footer-background-color: #000;
 }
+/**** Generic Styles***/
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+h1,h2,h3{
+    font-family: var(--featured-font-family);
+    font-size: 3rem;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    margin-bottom: 40px;    
+}
+
+p{
+color: var(--highlight-color);
+}
